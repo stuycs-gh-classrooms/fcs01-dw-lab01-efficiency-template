@@ -87,7 +87,7 @@ print("euler5(10): ", answer)
 print("Second slow version test:")
 #YOUR CODE HERE
 
-answer = euler5_loop_count(10)
+answer = euler5_loop_count(20)
 #YOUR CODE HERE
 
 print("elapsed time: ")
