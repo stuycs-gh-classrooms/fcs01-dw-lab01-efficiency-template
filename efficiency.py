@@ -28,8 +28,8 @@ def euler5(n):
             guess+= 1
             max_divisor = 1
     return guess
-#answer = euler5(10)
-#print("euler5(10): ", answer)
+answer = euler5(10)
+print("euler5(10): ", answer)
 
 #==================================================
 # Problem 0
@@ -56,6 +56,7 @@ def euler5_loop_count(n):
     return guess
 # To test, use this, it should take 25 loops to get the answer
 # which is 12
+print("Testing loop count only:")
 answer = euler5_loop_count(4)
 print("euler5(4): ", answer)
 
