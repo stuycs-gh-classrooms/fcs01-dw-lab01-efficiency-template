@@ -32,6 +32,7 @@ answer = euler5(10)
 print("euler5(10): ", answer)
 
 #==================================================
+print(f'\n{"="*20}\nPROBLEM 0\n')
 # Problem 0
 
 # We want to be able to discuss how long this function takes to run.
@@ -64,6 +65,7 @@ print("euler5(4): ", answer)
 #==================================================
 
 #==================================================
+print(f'\n{"="*20}\nPROBLEM 1\n')
 # Problem 1
 
 # We can also talk about how long a fucntion takes measured in seconds.
@@ -87,7 +89,7 @@ print("euler5(10): ", answer)
 print("Second slow version test:")
 #YOUR CODE HERE
 
-answer = euler5_loop_count(20)
+answer = euler5_loop_count(10) #change this to 20 when you think you hanve a solution
 #YOUR CODE HERE
 
 print("elapsed time: ")
@@ -98,6 +100,7 @@ print("answer euler5(20): ", answer)
 
 
 #==================================================
+print(f'\n{"="*20}\nPROBLEM 2\n')
 # Problem 2
 
 # Hopefully, you noticed that the loop count and time to
@@ -137,13 +140,17 @@ print("\nBetter version:")
 # Dont forget to include time code as well
 # YOUR CODE HERE
 
-answer = euler5_better(20)
+answer = euler5_better(10) #change this to 20 when you think you hanve a solution
 # YOUR CODE HERE
 print("elapsed time: ")
 print("answer euler5(20): ", answer)
 
+# Print out an explanation of what you did to decrease
+# the number of loop iterations performed.
+print('')
 
 #==================================================
+print(f'\n{"="*20}\nPROBLEM 3\n')
 # An advanced approach
 
 # Perhaps the number above is not good enough for you.
