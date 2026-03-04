@@ -147,7 +147,7 @@ print("answer euler5(20): ", answer)
 
 # Print out an explanation of what you did to decrease
 # the number of loop iterations performed.
-print('')
+print('EXPLNATION REDACTED')
 
 #==================================================
 print(f'\n{"="*20}\nPROBLEM 3\n')
@@ -173,7 +173,9 @@ def lcm(max_divisor, guess):
 # euler5 function.
 
 
-
+# Print out an explanation of what you did to decrease
+# the number of loop iterations performed.
+print('EXPLNATION REDACTED')
 
 
 # End advanced approach
